@@ -24,3 +24,5 @@
 *.pdf
 *.snm
 *.synctex.gz
+
+*.err
