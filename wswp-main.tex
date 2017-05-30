@@ -3,7 +3,9 @@
 \usepackage{arabtex}
 \usepackage{utf8}
 
-\usetheme{Berlin}
+\usepackage{graphicx}
+
+\usetheme{Antibes}
 \setbeamertemplate{footline}[frame number]
 
 
@@ -16,7 +18,7 @@
 			\<
 			لماذا علينا جميعا أن نتعلم البرمجة؟
 			>
-} % change color and formatting of "All" and "Program" words
+} % !!!! TODO !!!! change color and formatting of "All" and "Program" words
 \author{	Ghazi Majdoub\\
 			\< 
 			غازي المجدوب
@@ -35,7 +37,12 @@
 	\end{frame}
 	
 	% ***** Table of Content *****
-	\section*{Overview}
+	\section*{
+		Overview
+		\<
+		المحتوى
+		>
+	}
 	\begin{frame}
 		\frametitle{
 			Overview\\
@@ -63,7 +70,7 @@
 	% *************************************************************************
 	
 	% ***** What is Programming? *****
-	\section{What is Programming?}
+	\section{What is Programming?} % !!!! TODO !!!! translate sections titles to arabic (resolve compilation failure)
 	\begin{frame}
 		\frametitle{
 			What is Programming?\\
@@ -71,6 +78,10 @@
 			ماهي البرمجة؟
 			>
 		}
+		
+		\begin{center}
+			\includegraphics[width=0.6\textwidth]{images/what-is-programming.png}
+		\end{center}
 		
 		\begin{itemize}
 			\item	Programming is a lot \textbf{easier} and \textbf{rewarding} than you think!
@@ -112,9 +123,7 @@
 			\<
 			الوظيفة والنجاح العملي
 			>
-		}
-		
-		
+		}		
 	\end{frame}
 	
 	% ***** Power and Control over our lifes *****
